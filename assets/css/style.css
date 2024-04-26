@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+.headline{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: xx-large;
+    
+}
+.under-headline{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: small;
+    
+    color: #24a124;
+}
+.genral-container{
+    display: flex;
+    gap: 50px;
+}
+.container {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    row-gap: 50px;
+    align-items: center; 
+}
+.card1,.card2,.card3 {
+    background-color: #fff;
+    width: 250px;
+    border: 1px solid #eee;
+
+}
+/* every thing about houses */
+.house-1 {
+    border-radius: 5px;
+    background-image: url(./../images/house-1.jpg);
+} 
+.house-2{
+    border-radius: 5px;
+    background-image: url(./../images/house-2.jpg);
+}
+.house-3 {
+    border-radius: 5px;
+    background-image: url(./../images/house-3.jpg);
+}
+.house-1,.house-2,.house-3{
+
+    height: 150px;
+    background-size: cover;
+
+}
+
+
+/* end of houses */
+
+
+.icon p {
+    display: inline-block;
+    padding: 2px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.persone-1{
+    background-image: url(./../images/1.jpg);
+}
+.persone-1,.persone-2,.persone-3{
+
+    background-size: cover;
+    background-position: center;
+    height: 33px;
+    width: 33px;
+    border-radius: 40px;
+    margin-right: 20px;
+}
+.persone-2 {
+    background-image: url(./../images/2.jpg);
+}
+.persone-3{
+    background-image: url(./../images/3.jpg);
+}
+.color-icon{
+    color: #24a124;
+    display: inline-block;
+}
+.content {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.title {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    width: 250px;
+}
+
+.type-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: small;
+    color: #555;
+}
+
+.type-2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
